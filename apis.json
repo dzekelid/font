@@ -1,0 +1,52 @@
+{
+	"name": "Streadata.io API Gallery - Font",
+	"description": "This is a repository of font APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/font.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://font.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Fonts",
+			"x-api-slug": "google-fonts",
+			"description": "Create dynamic apps by querying Google Fonts to get an accurate list of the families currently available. All fonts are released under open source licenses. You can use them in any non-commercial or commercial project.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-17 at 8.18.48 PM.png",
+			"humanURL": "https://fonts.google.com/",
+			"baseURL": "://www.googleapis.com//webfonts/v1",
+			"tags": "Font",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/font/master/_listings/google-fonts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Font",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/font/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Font",
+	"include": [
+		{
+			"name": "Google Fonts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/font/master/_listings/google-fonts/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/font/master/_listings/microsoft-graph/apis.yaml"
+		}
+	]
+}
